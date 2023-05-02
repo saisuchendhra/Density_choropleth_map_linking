@@ -40,15 +40,15 @@ When you run the Index.html file initially you should show the density plot for 
 - Give the line in this chart a 2 pixel black border (i.e., stroke-width: 2px).
 - When the user mouses over on the density plot these actions should be done: (1) First, emphasize the currently hovered location by showing the world population during that year. (2) Second, in the Right panel choropleth map should update with the slider on the density plot by taking the year.
 
+![images/density_plot.PNG](images/density_plot.PNG)
 
-
-![images/density_choropleth.mp4](images/density_choropleth.mp4)
+![images/density_choropleth.gif](images/density_choropleth.gif)
 
 ## Step 2: Displaying a choropleth map
 
 When the user correctly mouse over on the density plot the choropleth map should be updated with the population in each region during the selected year on the density plot.
 
-
+![images/choropleth_map.PNG](images/choropleth_map.PNG)
 
 ## Step 3: Add a hover tooltip to the choropleth map
 
