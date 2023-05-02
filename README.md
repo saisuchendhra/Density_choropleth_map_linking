@@ -9,7 +9,7 @@ The purpose of this homework is to give you practice interactively building and 
 
 The screenshot below shows an example of what your finished interface will look like.
 
-![images/Density_choropleth.png](images/Density_choropleth.png)
+![images/Density_choropleth.png](images/Density_choropleth2.png)
 
 ## Overview
 
@@ -40,7 +40,7 @@ When you run the Index.html file initially you should show the density plot for 
 - Give the line in this chart a 2 pixel black border (i.e., stroke-width: 2px).
 - When the user mouses over on the density plot these actions should be done: (1) First, emphasize the currently hovered location by showing the world population during that year. (2) Second, in the Right panel choropleth map should update with the slider on the density plot by taking the year.
 
-![images/density_plot2.PNG](images/density_plot2.PNG)
+![images/density_plot2.PNG](images/density_plot.PNG)
 
 ![images/density_choropleth.gif](images/density_choropleth.gif)
 
