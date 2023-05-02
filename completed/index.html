@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <title>Line chart from CSV using d3.js</title>
+    <script type="text/javascript" src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="chart.css" />
+    <style>
+      .myContainer {
+         
+          width:1210px;
+      }
+      #root{
+                float:left;
+                width: 600px;;
+                padding:10px;
+                margin-left: 60px;
+                margin-right: 40px;
+            }
+            #choropleth-map {
+                float:left;
+                width: 750px;;
+                padding:20px;
+             
+            }
+
+
+            
+      </style>
+  </head>
+  <body>
+    <div class="myContainer">
+      <h1 class="text-center">Homework #2: D3 Linking</h1>
+            <h3 class="text-center">Sai Suchendhra Eravathri - seravath@asu.edu</h3>
+            <div id="root" class="border border-dark rounded bg-light shadow-sm">
+            <div> <strong> Total World Population</strong> </div>
+            Mouse over on the plot to see changes in choropleth-graph
+      </div>
+      </div>
+      <div id="choropleth-map" class="border border-dark rounded bg-light shadow-sm">
+        <strong> Population for the year  <span id="character-name">NONE</span>. </strong> 
+      <div id="choropleth-map" margin-left="10">
+        <svg width="1000" height="420" id="choro_svg" ></svg>
+      </div>
+      </div>
+      <script src="chart1.js"></script>
+    </div>
+    
+    
+  </body>
+</html>

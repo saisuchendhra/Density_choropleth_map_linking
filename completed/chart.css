@@ -1,0 +1,20 @@
+
+path.line {
+  fill: none;
+  stroke: black;
+  stroke-width: 2px;
+}
+
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: slategray;
+  shape-rendering: crispEdges;
+}
+
+line.x,
+line.y,
+circle.y {
+  stroke: Aqua;
+}
