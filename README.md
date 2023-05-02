@@ -57,7 +57,7 @@ The screenshot below shows the choropleth map with tool tip.
 
 Finally, let's add a tooltip to the choropleth map. When the user hovers over a region on the map, we'll display the coutry name and the population during that year.
 
-The tooltip should show the current letter that's being hovered and its count, styled like the above gif (e.g., white background, black rounded border with a width of 2 pixels). The tooltip should follow the user's mouse as it moves along the map, and disappear when it's no longer over the bar. You'll want to use mouse events to control this functionality (`mouseover`, `mousemove`, `mouseout`). 
+The tooltip should show the current country that's being hovered and its population, styled like the above gif. The tooltip should follow the user's mouse as it moves along the map, and disappear when it's no longer over the bar. You'll want to use mouse events to control this functionality (`mouseover`, `mousemove`, `mouseout`). 
 
 
 ## Grading
